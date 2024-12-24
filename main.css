@@ -1,0 +1,145 @@
+* {
+    margin: 0; /* Remove as margens padrões */
+    padding: 0; /* Remove os preenchimentos padrões */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total */
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: "roboto", sans-serif;
+}
+
+header {
+    padding: 16px 0; /* Espaçamento vertical no cabeçalho */
+    background-color: rgb(17, 17, 77); /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho */
+}
+
+header nav li {
+    display: inline; /* Exibe os itens de navegação lado a lado */
+    margin-left: 16px; /* Espaçamento entre os itens */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+header nav li a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.container {
+    max-width: 1280px; /* Largura máxima do container */
+    width: 100%; /* Ocupa 100% da largura disponível */
+    margin: 0 auto; /* Centraliza o container */
+}
+
+header .container ,
+section .container {
+    display: flex; /* Usa o flexbox para organizar os itens */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+.brands-list img {
+    height: 24px; /*ajusta o tamanho da imagem*/
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section.container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(17, 17, 77);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px ;
+}
+
+.social-links li a{
+    text-decoration: none ;
+}
+
+#contact .container{
+    display: block ;
+}
+
+.contact-methods {
+    display:flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display:block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize : none;
+    height: 120px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color:rgb(17, 17, 77) ;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:rgb(55, 55, 197) ;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(29, 0, 109) ;
+}
+
+footer {
+    background-color: rgb(17, 17, 77)  ;
+    color: white;
+    padding: 16px 0 ;
+}
+
+
+
+
